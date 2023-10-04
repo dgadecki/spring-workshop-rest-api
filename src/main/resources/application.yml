@@ -1,0 +1,14 @@
+# Spring configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5532/workshop
+    username: workshop
+    password: workshop
+
+# Tomcat configuration
+server:
+  port: 8787
+  error:
+    include-exception: true
+    include-message: always
+    include-stacktrace: always
